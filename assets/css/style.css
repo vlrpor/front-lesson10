@@ -13,8 +13,57 @@ ul {
 img {
     max-width: 100%;
 }
-/*.container {
-    background-color: #0A22F4;
+.container {
+    background-color: #eb3486;
     max-width: 1920px;
     margin: auto;
+}
+.sector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info {
+    max-width: 600px;
+    width: 100%;
+    background-color: #81f542;
+}
+.form-elements {
+    max-width: 600px;
+    width: 100%;
+    background-color: #f56942;
+}
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+label {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+.form-row input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 300px;
+}
+input {
+    outline: none;
+}
+textarea {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: none;
+    max-width: 300px;
+}
+/*.google-map {
+     position: relative;
+}
+
+.google-map iframe {
+     height: 100%;
+     width: 100%;
 }*/
